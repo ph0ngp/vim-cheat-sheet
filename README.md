@@ -1,4 +1,4 @@
-## Vim cheatsheet
+# Vim Cheat Sheet
 
 The mode of *Meaning* column is the `NORMAL` mode if not specified otherwise
 
@@ -104,7 +104,7 @@ Key binding                                       | Meaning
 count + `@:`                                         | `COMMAND` execute last ex command
 `gx`                                                | open url
 
-## Vim regex
+# Vim regex
 - `s/match/subsitute/g`: substitute command, replace all matches in a line
 - `\[` and `\]`: match square brackets
 - `\(` and `\)`: create matched pattern for reuse later
@@ -117,7 +117,7 @@ Example: change all `[XXX]`, `[YYY]` into `"XXX"`, `"YYY"`
 
 Solution: `s/\[\(.\{-}\)\]/"\1"/g`
 
-## Vimscript note
+# Vimscript note
 - String list syntax:
   - `-=` removes the value from a string list.
   - `+=` appends the value to a string list.
